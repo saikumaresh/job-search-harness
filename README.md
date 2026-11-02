@@ -2,7 +2,7 @@
 
 A better model will not fix your job search. A better system around the model will.
 
-This is the setup I use to run my own search. Claude finds roles, scores every posting the same way every time with quoted evidence, gets a second Claude to check its work, remembers what it has already seen, learns only from corrections I approve, and runs on a schedule. I make every decision. Nothing is sent without my yes.
+This is a reference build of harness engineering, applied to a problem everyone understands: finding the right role. Claude finds roles, scores every posting the same way every time with quoted evidence, gets a second Claude to check its work, remembers what it has already seen, learns only from corrections you approve, and runs on a schedule. You make every decision. Nothing is sent without your yes.
 
 Built by [Sai Kumaresh](https://www.linkedin.com/in/sai-kumaresh/). Write-up: {{MEDIUM_LINK}}
 
