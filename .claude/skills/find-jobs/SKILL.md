@@ -23,7 +23,7 @@ For each new posting, open it **on the employer's own board** and save the full 
 Apply the gates, then the five dimensions, exactly as `context/rubric.md` says, with a verbatim quote per dimension. Apply any matching rule in `memory/calibration.md` and name it. Write each scorecard with `context/templates/scorecard.md` to `reports/scorecards/{YYYY-MM-DD}/{slug}.md`.
 
 ## 6. Verify
-Hand every scorecard to the **verifier** agent (`.claude/agents/verifier.md`), together with the paths to its JD snapshot, `context/rubric.md`, `memory/calibration.md` and `context/profile.md`. Give it nothing else: not your reasoning, not your notes.
+Hand every scorecard to the **verifier** agent (`.claude/agents/verifier.md`), together with the paths to its JD snapshot, `context/rubric.md`, `memory/calibration.md`, `context/profile.md` and `context/claims.md`. Give it nothing else: not your reasoning, not your notes.
 - If named agents are not available in this session, start a fresh subagent and give it the full text of `.claude/agents/verifier.md` as its instructions, plus only those paths. Tell it it may only read files.
 - For each ISSUES result, fix the scorecard once and send it back. If the verifier still disagrees, mark it DISPUTED and show both views in the report. Never drop a dispute silently.
 
