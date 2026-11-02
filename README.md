@@ -6,6 +6,8 @@ This is a reference build of harness engineering, applied to a problem everyone 
 
 Built by [Sai Kumaresh](https://www.linkedin.com/in/sai-kumaresh/). Write-up: {{MEDIUM_LINK}}
 
+**Not job hunting? Use [HARNESS_PROMPT.md](HARNESS_PROMPT.md).** One prompt that interviews you about any repeated judgement task, builds these six layers for it, tests itself with a read-only verifier, and then does the task.
+
 ## The six layers
 
 | Layer | What it is here | Files |
