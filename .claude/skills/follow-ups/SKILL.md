@@ -24,4 +24,4 @@ For each due role, draft a note of 90 words or fewer: plain text, one specific r
 Send the drafts and the tracker path to the **verifier** agent. Fix every ISSUES item.
 
 ## 7. Report and stop
-Write `reports/{YYYY-MM-DD}-follow-ups.md` using `context/templates/follow-ups-report.md`. Append one line to `memory/runs.md`. In chat: replies first, then the drafts. Nothing is sent. If the user says "send {company}" in an interactive session, create a Gmail draft the user can send, or send it only if they explicitly ask.
+Write `reports/{YYYY-MM-DD}-follow-ups.md` using `context/templates/follow-ups-report.md`. Append one line to `memory/runs.md`. In chat: replies first, then the drafts. Nothing is sent. If the user says "send {company}" in an interactive session, create a Gmail draft the user can send. Never send it.
