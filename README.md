@@ -4,7 +4,7 @@ A better model will not fix your job search. A better system around the model wi
 
 This is a reference build of harness engineering, applied to a problem everyone understands: finding the right role. Claude finds roles, scores every posting the same way every time with quoted evidence, gets a second Claude to check its work, remembers what it has already seen, learns only from corrections you approve, and runs on a schedule. You make every decision. Nothing is sent without your yes.
 
-Built by [Sai Kumaresh](https://www.linkedin.com/in/sai-kumaresh/). Write-up: {{MEDIUM_LINK}}
+Built by [Sai Kumaresh](https://www.linkedin.com/in/sai-kumaresh/). Write-up: [Harness Engineering: How I Turned Claude Into a Job-Search System That Checks Its Own Work](https://medium.com/@saikumaresh/harness-engineering-claude-code-verifier-agent-c10131f4109e)
 
 **Not job hunting? Use [HARNESS_PROMPT.md](HARNESS_PROMPT.md).** One prompt that interviews you about any repeated judgement task, builds these six layers for it, tests itself with a read-only verifier, and then does the task.
 
